@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Poppins",serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+:root{
+    color: brown;
+}
+header{
+    background-color: chocolate;
+
+}
+
+header .nav_bar{
+    display:flex;
+    align-self: center;
+    justify-content:space-between;
+
+}
+.nav_bar{
+    color: aliceblue;
+
+
+}
+.nav_logo{
+    color: aliceblue;
+}
+.nav_bar .menu{
+    display: flex;
+    align-self: right;
+    gap: 20px;
+
+    
+}
+.nav_bar .menu .link{
+    padding: 10px  18px;
+    color: beige;
+    background-color: darkorange;
+    
+}
+body{
+    background-color: chocolate;
+}
+.content_img{
+    img{
+    align-self: center;
+    }
+    height: 20px;
+    align-self: center;
+    gap: auto;
+
+}
+.menu2{
+    padding-left: 27%;
+    padding-top: 20%;
+    padding-bottom: 25%;
+}
+.ad{
+    padding-left: 50%;
+    
+    
+}
+header .ad_text{
+    padding-left: 50%;
+}
+
+.randomtext{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
