@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{  margin: 0;
+    padding: 0;
+
+    font-family: "Poppins",serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+:root{
+    color: brown;
+}
+html{
+    border: 2px solid yellow;
+
+}
+header{
+    background-color: chocolate;
+
+}
+
+.logo{
+    position: relative;
+    display: flex;
+    justify-self: center;
+    
+    
+    
+    
+    
+    
+}
+.nav_bar .menu {
+    display:flex;
+    margin: 50px;
+    list-style: none;
+    gap: 10px;  
+}
+
+
+.nav_bar .menu .link  {
+    padding: 10px;
+    color: beige;
+    background-color: darkorange;
+    outline: 2px solid black;
+    border: 2px;
+    border-radius: 10px;
+
+
+    
+    
+}
+.menu a:hover{
+    color: burlywood;
+}
+body{
+    background-color: chocolate;
+}
+
+.content{
+    text-decoration: underline;
+    text-decoration-style:dashed ;
+}
+.content_img{
+  position: relative;
+  right:180px;
+  image-rendering: crisp-edges;
+  
+}
+.log a:hover{
+    color: red;
+}
+
+.parent1{
+    margin: 10px;
+    border: 2px solid black;
+  width:max-content;
+  border-radius: 50px;
+
+}
+.menu2{
+    padding-left: 27%;
+    padding-top: 20%;
+    padding-bottom: 25%;
+}
+.new{
+    position: relative;
+    left: 50vh;
+    bottom: 40vh;
+ 
+    
+    
+}
+header .ad_text{
+    padding-left: 50%;
+}
+
+
+.parent{
+    position: fixed;
+    top: 0;
+    left: 100vh;
+
+    
+}
+a:hover{
+    text-decoration: underline;
+    text-decoration-style: solid;
+}
